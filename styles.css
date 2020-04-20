@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0 1px rgba(0,0,0,.2);
+  grid-template-columns: 40px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  margin-left: 60px;
+  height: 40px;
+  width: 40px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 60px;
+  height: 40px;
+}
+
+.menu-item {
+  padding: 5px 10px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 25px;
+}
+
+.menu-item:hover {
+  background: #e7e7e7;
+
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+}
+
+svg {
+  margin: 2px;
+}
+
+.sign-up {
+  box-shadow: 0 1px rgba(0,0,0,.2);
+}
